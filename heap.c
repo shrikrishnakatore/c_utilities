@@ -3,16 +3,7 @@
 MAX heap Library
 
 *******************************************************************************/
-
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-// implementation of MAX heap
-typedef struct Heap{
-    int* data;
-    int capacity;
-    int size;
-} Heap;
+#include "heap.h"
 
 void swap(int* a, int* b){
     int t= *a;
