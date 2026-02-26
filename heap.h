@@ -4,7 +4,7 @@
 #include <limits.h>
 
 // implementation of MAX heap
-typedef struct Heap{
+typedef struct HeapType{
     int* data;
     int capacity;
     int size;
